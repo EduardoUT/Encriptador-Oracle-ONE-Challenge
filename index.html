@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Mensajes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="main">
+    <div id="contenedor-titulo">
+      <h1 class="titulo">Código Secreto</h1>
+    </div>
+    <div class="boxes">
+      <section class="form box">
+        <form action="">
+          <p class="texto">Ingresa tú mensaje...</p>
+
+          <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"
+            onkeyup="this.value=validarMensaje(this.value)">
+
+          <input class="btn" type="button" value="Encriptar" id="btn-encriptar" onclick="encriptarMensaje();">
+          <input class="btn" type="button" value="Desencriptar" id="btn-desencriptar" onclick="desencriptarMensaje()">
+        </form>
+      </section>
+
+      <section class="msg box">
+        <p class="texto">Mensaje encriptado:</p>
+        <input class="text-input" type="text" id="msg" placeholder="Mensaje"></input>
+        <input class="btn" type="submit" value="Copiar Mensaje" id="btn-copy">
+      </section>
+    </div>
+
+  </main>
+  <footer id="footer-end">
+    <p class="titulo">Por: Eduardo Reyes Hernández</p>
+    <a href="https://www.linkedin.com/in/eduardo-reyes-hernández-3040471aa/" target="_blank" class="links-footer">
+      <img src="linkedin.png" class="iconos">
+    </a>
+    <a href="https://github.com/EduardoUT" target="_blank" class="links-footer">
+      <img src="github.png" class="iconos">
+    </a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
