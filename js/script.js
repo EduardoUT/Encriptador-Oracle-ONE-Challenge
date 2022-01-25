@@ -1,5 +1,5 @@
 
-/* Reglas de encriptación: 
+/** Reglas de encriptación: 
 "e" es convertido para "enter" 
 "i" es convertido para "imes"
 "a" es convertido para "ai"
