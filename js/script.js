@@ -25,7 +25,7 @@ No se permite acentuación de palabras
 */
 
 
-var textoMinusculas = "";
+
 var letras = ["a", "e", "i", "o", "u"];
 var codigo = ["ai", "enter", "imes", "ober", "ufat"];
 var punteroUno = document.getElementById("input-texto");
@@ -33,6 +33,7 @@ var punteroDos = document.getElementById("msg");
 punteroUno.focus();
 
 function validarMensaje(textoEntrada) {
+    var textoMinusculas = "";
     /**
      * ¿Qué es indexOf()?
      * Función que nos permite saber si existe un carácter en una posición, 
