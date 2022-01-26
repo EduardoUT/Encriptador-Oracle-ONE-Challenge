@@ -28,7 +28,6 @@ body {
 }
 
 .main {
-  background-color: cornflowerblue;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -118,7 +117,6 @@ input:focus {
 }
 
 #footer-end {
-  background-color: blueviolet;
   display: flex;
   justify-content: flex-end;
   max-width: 1250px;
