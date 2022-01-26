@@ -28,21 +28,12 @@ var inputUno = document.querySelector("#input-texto");
 var inputDos = document.querySelector("#msg");
 inputUno.focus();
 
-function copiarMensaje() {
-    var copiarTexto = document.querySelector("#msg");
-    copiarTexto.select();
-    document.execCommand("copy");
-    alert("Texto copiado en el portapapeles.")
-}
+
 
 function limpiarCampoUno() {
     inputUno.value = "";
     inputUno.focus();
 }
-
-document.querySelector("#btn-copy").addEventListener("click", copiarMensaje);
-//console.log(document.getElementById("msg"));
-
 
 
 
