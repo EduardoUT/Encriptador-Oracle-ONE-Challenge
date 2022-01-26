@@ -1,4 +1,6 @@
-function validarMensaje(textoEntrada) {
+var inputUno = document.querySelector("#input-texto");
+inputUno.addEventListener("keyup", this.value = function(){
+    var textoEntrada = inputUno.value;
     var textoMinusculas = "";
     /**
      * ¿Qué es indexOf()?
@@ -26,11 +28,13 @@ function validarMensaje(textoEntrada) {
                 //Con el console, comprobamos que corresponda a la posición del filtroGeneral dando true
                 //console.log(filtroGeneral[j] == textoEntrada[i]);
                 textoValidado += textoEntrada[i];
+                console.log("Validado: " + textoValidado)
             }
         }
     }
 
-    textoMinusculas = textoValidado.toLowerCase(); //Función de JavaScript que permite transformar string en minúscula.   
+    textoMinusculas = textoValidado.toLowerCase(); //Función de JavaScript que permite transformar string en minúscula.
+    inputUno.value = textoMinusculas;
+});
 
-    return textoMinusculas;
-}
+
