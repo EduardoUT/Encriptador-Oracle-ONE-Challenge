@@ -57,10 +57,6 @@ function limpiarCampoUno() {
     inputUno.focus();
 }
 
-function limpiarCampoDos() {
-    inputDos.value = "";
-}
-
 document.querySelector("#btn-copy").addEventListener("click", copiarMensaje);
 //console.log(document.getElementById("msg"));
 
