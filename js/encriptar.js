@@ -13,9 +13,6 @@ Entrada: este mensajeEntrada sera encriptado
 Salida: enterstenter menternsaijenter senterrai enterncrimesptaidober
 */
 
-var letras = ["a", "e", "i", "o", "u"];
-var codigo = ["ai", "enter", "imes", "ober", "ufat"];
-
 var botonEncriptar = document.querySelector("#btn-encriptar");
 
 //Creamos un evento asociandolo a una función anónima
