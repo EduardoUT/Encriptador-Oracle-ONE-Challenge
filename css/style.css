@@ -22,20 +22,21 @@ body {
   background-size: cover;
   background-position: center;
   font-family: var(--font-family);
-  justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
+  background-color: cornflowerblue;
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 1250px;
-  height: 85vh;
-  margin: 0 auto;
+  height: 100vh;
   padding: 0px 16.5px 0px 16.5px;
-  justify-content: inherit;
-  align-items: inherit;
+  justify-content: center;
+  align-items: center;
 }
 
 #contenedor-titulo {
@@ -117,16 +118,16 @@ input:focus {
 }
 
 #footer-end {
-  margin: 0 auto;
+  background-color: blueviolet;
   display: flex;
   justify-content: flex-end;
-  height: 15vh;
   max-width: 1250px;
   width: 100%;
   align-items: center;
+  margin-top: 50px;
 }
 
-#footer-end .titulo {
+#footer-end .texto-footer {
   font-size: 15px;
   font-family: var(--font-family);
   color: black;
@@ -157,6 +158,12 @@ input:focus {
 
   #contenedor-titulo {
     min-width: 55%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #footer-end {
+    position: static;
   }
 }
 
