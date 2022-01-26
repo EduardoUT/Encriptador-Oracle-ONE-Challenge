@@ -1,3 +1,18 @@
+/** Reglas de encriptación: 
+"e" es convertido para "enter" 
+"i" es convertido para "imes"
+"a" es convertido para "ai"
+"o" es convertido para "ober"
+"u" es convertido para "ufat"
+Solo letras minusculas
+No se permite acentuación de palabras
+Entrada: mensajeEntrada 
+Salida: menternsaije 
+
+Entrada: este mensajeEntrada sera encriptado
+Salida: enterstenter menternsaijenter senterrai enterncrimesptaidober
+*/
+
 var letras = ["a", "e", "i", "o", "u"];
 var codigo = ["ai", "enter", "imes", "ober", "ufat"];
 
