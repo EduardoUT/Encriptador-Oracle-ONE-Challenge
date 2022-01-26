@@ -26,16 +26,16 @@ No se permite acentuación de palabras
 
 var letras = ["a", "e", "i", "o", "u"];
 var codigo = ["ai", "enter", "imes", "ober", "ufat"];
-var punteroUno = document.getElementById("input-texto");
-var punteroDos = document.getElementById("msg");
-punteroUno.focus();
+var inputUno = document.querySelector("#input-texto");
+var inputDos = document.querySelector("#msg");
+inputUno.focus();
 
 function encriptarMensaje() {
     /**
      * Primero obtenemos el contenido del input text, con document.getElementById.
      */
 
-    var mensajeEntrada = document.getElementById("input-texto").value;
+    var mensajeEntrada = document.querySelector("#input-texto").value;
     //console.log(mensajeEntrada);
     var mensajeEncriptado = "";
     /**
@@ -78,12 +78,12 @@ function encriptarMensaje() {
     }
 
 
-    document.getElementById("msg").value = mensajeEncriptado;
+    document.querySelector("#msg").value = mensajeEncriptado;
     limpiarCampoUno();
 }
 
 function desencriptarMensaje() {
-    var mensaje = document.getElementById("input-texto").value;
+    var mensaje = document.querySelector("#input-texto").value;
     var decript = "";
 
     decript= mensaje.replace(/ai/g, letras[0]).replace(/enter/g, letras[1]).
@@ -105,12 +105,12 @@ function copiarMensaje() {
 }
 
 function limpiarCampoUno() {
-    punteroUno.value = "";
-    punteroUno.focus();
+    inputUno.value = "";
+    inputUno.focus();
 }
 
 function limpiarCampoDos() {
-    punteroDos.value = "";
+    inputDos.value = "";
 }
 
 document.querySelector("#btn-copy").addEventListener("click", copiarMensaje);
