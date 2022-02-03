@@ -1,6 +1,6 @@
 var inputUno = document.querySelector("#input-texto");
-inputUno.addEventListener("keyup", this.value = function(){
-    var textoEntrada = inputUno.value;
+inputUno.addEventListener("input", function(){
+    var textoEntrada = this.value;
     var textoMinusculas = "";
     /**
      * ¿Qué es indexOf()?
@@ -33,7 +33,7 @@ inputUno.addEventListener("keyup", this.value = function(){
     }
 
     textoMinusculas = textoValidado.toLowerCase(); //Función de JavaScript que permite transformar string en minúscula.
-    inputUno.value = textoMinusculas;
+    this.value = textoMinusculas;
 });
 
 
