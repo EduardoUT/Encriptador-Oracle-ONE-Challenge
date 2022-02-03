@@ -1,5 +1,5 @@
 var inputUno = document.querySelector("#input-texto");
-inputUno.addEventListener("input", function(){
+inputUno.addEventListener("input", function (event) {
     var textoEntrada = this.value;
     var textoMinusculas = "";
     /**
@@ -18,8 +18,8 @@ inputUno.addEventListener("input", function(){
     //Al final dejé un espacio para validar también los espacios en blanco.
     var filtroGeneral = "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ ";
     /**
-     * Hice dos ciclos uno para recorrer el contenido de mi input text y otro para recorrer mi filtro
-     */
+    * Hice dos ciclos uno para recorrer el contenido de mi input text y otro para recorrer mi filtro
+    */
     for (var i = 0; i < textoEntrada.length; i++) {
         for (var j = 0; j < filtroGeneral.length; j++) {
             //Si el contenido del índice en mi filtroGeneral coincide con el de mi input text lo irá agregando
