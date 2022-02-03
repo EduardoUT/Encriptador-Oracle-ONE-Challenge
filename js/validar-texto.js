@@ -16,7 +16,7 @@ inputUno.addEventListener("input", function(){
      * campo de texto, y más adelante con la función toLowerCase() se convertirá en minúscula.
      */
     //Al final dejé un espacio para validar también los espacios en blanco.
-    var filtroGeneral = "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTVWXYZ ";
+    var filtroGeneral = "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ ";
     /**
      * Hice dos ciclos uno para recorrer el contenido de mi input text y otro para recorrer mi filtro
      */
