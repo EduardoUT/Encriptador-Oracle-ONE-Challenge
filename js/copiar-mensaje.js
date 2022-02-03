@@ -5,5 +5,5 @@ botonCopiar.addEventListener("click", function(event) {
     var copiarTexto = document.querySelector("#msg");
     copiarTexto.select();
     document.execCommand("copy");
-    alert("Texto copiado en el portapapeles.")
+    alert("Texto copiado en el portapapeles.");
 });
