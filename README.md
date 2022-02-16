@@ -9,9 +9,13 @@ Publicado en el topic: https://github.com/topics/challengeonelogicalatam
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 `La letra "e" es convertida para "enter"`
+
 `La letra "i" es convertida para "imes"`
+
 `La letra "a" es convertida para "ai"`
+
 `La letra "o" es convertida para "ober"`
+
 `La letra "u" es convertida para "ufat"`
 
 **Requisitos**
@@ -31,6 +35,6 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 **Extras:**
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del `ctrl+C` o de la opción "copiar" del menú de las aplicaciones.
 
-**Página de Inicio:**
+**Vista previa página web:**
 
 ![Image text](https://raw.githubusercontent.com/EduardoUT/Encriptador-Oracle-ONE-Challenge/master/img/Ventana_Principal.PNG)
