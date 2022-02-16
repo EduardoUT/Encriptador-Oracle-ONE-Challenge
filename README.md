@@ -37,4 +37,4 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 
 **Vista previa página web:**
 
-![Image text](https://raw.githubusercontent.com/EduardoUT/Encriptador-Oracle-ONE-Challenge/master/img/Ventana_Principal.PNG)
+![Vista previa página web.](https://raw.githubusercontent.com/EduardoUT/Encriptador-Oracle-ONE-Challenge/master/img/Ventana_Principal.PNG)
