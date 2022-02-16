@@ -1,12 +1,3 @@
-/* Reglas de desencriptación: 
-"enter" es convertido para "e" 
-"imes" es convertido para "i"
-"ai" es convertido para "a"
-"ober" es convertido para "o"
-"ufat" es convertido para "u"
-Solo letras minusculas
-No se permite acentuación de palabras   
-*/
 var botonDesencriptar = document.querySelector("#btn-desencriptar");
 
 botonDesencriptar.addEventListener("click", function (event) {
@@ -25,4 +16,3 @@ botonDesencriptar.addEventListener("click", function (event) {
     limpiarCampoUno();
 
 });
-
