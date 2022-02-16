@@ -1,5 +1,8 @@
+**Challenge Uno de Seis | Formación Lógica de Programación | Encriptador de Texto**
 # Encriptador-Oracle-ONE-Challenge
 Encriptador/Desencriptador de mensajes, un Challenge de Oracle One Education y Alura Latam.
+
+El proyecto ha sido desarrollado como parte del programa Oracle Next Education en asociación con Alura Latam, a fin de afrontar y comprometerse a la resolución de problemas en un lenguaje de programación. 
 
 **Página Web:**
 https://eduardout.github.io/Encriptador-Oracle-ONE-Challenge/
