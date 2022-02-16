@@ -12,7 +12,5 @@ botonDesencriptar.addEventListener("click", function (event) {
     replace(/imes/g, letras[2]).replace(/ober/g, letras[3]).replace(/ufat/g, letras[4]);    
     //console.log(decript);
     campoDos.value = decript;
-
     limpiarCampoUno();
-
 });
