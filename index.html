@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="iconos/programacion-web.png">
+  <link rel="icon" href="img/iconos/programacion-web.png">
   <title>Encriptador de Mensajes</title>
 </head>
 
@@ -18,7 +18,7 @@
       <h1 class="titulo">Código Secreto</h1>
     </div>
     <div class="boxes">
-      <section class="form box">
+      <div class="form box">
         <form action="">
           <p class="texto">Escribe tú mensaje sin acentos, o pega un mensaje encriptado:</p>
           <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
@@ -26,31 +26,32 @@
           <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
           <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
         </form>
-      </section>
+      </div>
 
-      <section class="msg box">
+      <div class="msg box">
         <p class="texto">Mensaje encriptado/desencriptado:</p>
         <input class="text-input" type="text" id="msg" placeholder="Mensaje" readonly="readonly"></input>
         <input class="btn" type="submit" value="Copiar Mensaje" id="btn-copy">
-      </section>
+      </div>
     </div>
 
     <div id="footer-end">
       <p class="texto-footer">Por Eduardo Reyes Hernández</p>
       <a href="https://www.linkedin.com/in/eduardo-reyes-hernández-3040471aa/" target="_blank" class="links-footer">
-        <img src="iconos/linkedin.png" class="iconos">
+        <img src="img/iconos/linkedin.png" class="iconos">
       </a>
       <a href="https://github.com/EduardoUT" target="_blank" class="links-footer">
-        <img src="iconos/github.png" class="iconos">
+        <img src="img/iconos/github.png" class="iconos">
       </a>
     </div>
   </main>
-  
+
   <script src="js/script.js"></script>
   <script src="js/validar-texto.js"></script>
   <script src="js/encriptar.js"></script>
   <script src="js/desencriptar.js"></script>
   <script src="js/copiar-mensaje.js"></script>
+
 </body>
 
 </html>
